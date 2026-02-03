@@ -1,0 +1,28 @@
+body{
+    background: linear-gradient(to right,pink 25%,rgb(233, 233, 79));
+    overflow: hidden;
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.textContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 50%;
+    width: 80%;
+    background-color: rgb(234, 234,234);
+    border-radius: 20px;
+    box-shadow: 1rem 1rem 1rem rgba(0, 0, 0, 0.2);
+
+}
+
+.h1Text{
+    margin-top: 1rem;
+    text-shadow: 0.3rem 0.3rem 7px;
+}
+
